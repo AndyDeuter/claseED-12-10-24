@@ -8,9 +8,9 @@ class Rutina:
             print(f"{actividad}: {tiempo} horas")
 
 rutina = Rutina()
-rutina.agregar_actividad('Despertarse', 0.5)
-rutina.agregar_actividad('Ducharse', 0.5)
-rutina.agregar_actividad('Desayunar', 0.5)
-rutina.agregar_actividad('Leer', 1)
+rutina.agregar_actividad('levantarme', 1)
+rutina.agregar_actividad('rezar', 0.5)
+rutina.agregar_actividad('ducharme', 1)
+rutina.agregar_actividad('desayunar', 1)
 rutina.agregar_actividad('Salir', 0.5)
 rutina.mostrar_rutina()
